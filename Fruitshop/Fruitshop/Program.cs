@@ -6,7 +6,8 @@ namespace Fruitshop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Fruits!");
+            Console.WriteLine("Hi Fruits!");
+            Console.WriteLine("----------");
         }
     }
 }
