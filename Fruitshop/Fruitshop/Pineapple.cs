@@ -1,7 +1,13 @@
-﻿namespace Fruitshop
+﻿using System;
+
+namespace Fruitshop
 {
-    public class Pineapple
+    public class Pineapple : Fruit
     {
-        
+        public string Peel()
+        {
+            Console.WriteLine("Peeling");
+            return "Ok";
+        }
     }
 }
